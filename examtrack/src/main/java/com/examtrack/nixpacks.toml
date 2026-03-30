@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["cd examtrack && ./mvnw clean install -DskipTests"]
+
+[start]
+cmd = "cd examtrack && ./mvnw spring-boot:run"  
